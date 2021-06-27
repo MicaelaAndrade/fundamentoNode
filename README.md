@@ -1,25 +1,23 @@
-# NLW Valoriza
+# NLW06 - NodeJs
 
-## Regras
+## Resumos das aulas:
 
-- Cadastro de usuário
+# 01 dia
 
-  [ x ] Não é permitido cadastrar mais de um usuário com o mesmo e-mail
+O contéudo foi mais básico, aprendemos sobre como o node funciona e o problema que ele resolve, aprendemos sobre o typescript e sobre rotas http
 
-  [ x ] Não é permitido cadastrar usuário sem e-mail
+# 02 dia
 
-- Cadastro de TAG
+O contéudo foi focado mais em banco de dados e na estrutura da aplicação, aprendemos sobre o que é o "typeorm" e como ele facilita na utilização de banco de dados, nesse dia conseguimos cadastrar o usuário e fazer e um pouco da lógica de negócio
 
-  [ x ] Não é permitido cadastrar tag sem nome
+# 03 dia
 
-  [ x ] Não é permitido cadastrar mais de uma tag com o mesmo nome
+Fizemos toda tratativa de erros da aplicação até o momento, criamos toda a estrutura para criação de Tags, criamos a lógica de négocio da criação de tags (não cadastrar tags se não for admin e não criar tags com o nome vazio), e aprendemos sobre middlewares nas rotas.
 
-  [ x ] Não é permitido o cadastro por usuários que não sejam administradores
+# 04 dia
 
-- Cadastro de elogios
+No dia de hoje o principal aprendizado foi de autenticação de usuário com JWT, fizemos a criação das rotas de autenticação(porém ainda não esta validando, apenas possui regra de negócio) e de elogios(compliments), um dos aprendizados também foi da relações de tabelas e de como criar uma coluna com a tabela já feita.
 
-  [ ] Não é permitido um usuário cadastrar um elogio para si
+# 05 dia
 
-  [ ] Não é permitido cadastrar elogios para usuários inválidos
-
-  [ ] O usuário precisa estar autenticado na aplicação
+Ultimo dia nlw, nesse dia finalizamos a API, criamos os middlewares de autenticação, criamos as rotas de listar todos os usuários, listar tags, listar elogios e também listar todos os usuários que recebeu elogios, essa semana foi intensa e de grandes aprendizados.
